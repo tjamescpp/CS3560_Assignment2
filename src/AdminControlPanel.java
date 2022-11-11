@@ -280,7 +280,7 @@ public class AdminControlPanel extends JPanel implements ActionListener, MouseLi
         } else if (e.getSource() == showGroupTotalButton) {
 
             JDialog dialog = new JDialog(mainFrame, "Message");
-            JLabel totalUsersLabel = new JLabel("Total users: " + groupList.size());
+            JLabel totalUsersLabel = new JLabel("Total groups: " + groupList.size());
             dialog.setBounds(100, 100, 200, 100);
             dialog.add(totalUsersLabel);
             dialog.setVisible(true);
